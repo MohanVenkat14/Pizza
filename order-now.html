@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Now - Pizza Hut</title>
+    
+    <!-- Internal CSS -->
+    <style>
+        /* Basic Page Styling */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #fff3e0; /* Light Background */
+            text-align: center;
+        }
+
+        /* Header Styling */
+        header {
+            background-color: #d32f2f; /* Red Theme */
+            color: white;
+            padding: 15px;
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        /* Order Now Section */
+        .order-now {
+            max-width: 600px;
+            margin: 50px auto;
+            padding: 20px;
+            background: #ffffff;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        .order-now h2 {
+            color: #d32f2f;
+            margin-bottom: 20px;
+        }
+
+        .order-now label {
+            display: block;
+            font-size: 16px;
+            font-weight: bold;
+            margin-top: 10px;
+            text-align: left;
+        }
+
+        .order-now select, 
+        .order-now input {
+            width: 100%;
+            padding: 10px;
+            margin-top: 5px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            font-size: 16px;
+        }
+
+        /* Button Styling */
+        .btn {
+            display: inline-block;
+            width: 100%;
+            margin-top: 20px;
+            padding: 12px;
+            background: #d32f2f;
+            color: white;
+            font-size: 18px;
+            font-weight: bold;
+            text-transform: uppercase;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+
+        .btn:hover {
+            background: #b71c1c;
+        }
+
+        /* Back to Menu Button */
+        .back-btn {
+            display: inline-block;
+            margin: 20px auto;
+            padding: 10px 15px;
+            font-size: 16px;
+            color: white;
+            background: #333;
+            border-radius: 5px;
+            text-decoration: none;
+            transition: 0.3s;
+        }
+
+        .back-btn:hover {
+            background: black;
+        }
+
+    </style>
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        Order Now - Pizza Hut
+    </header>
+
+    <!-- Order Now Section -->
+    <section class="order-now">
+        <h2>Select Your Pizza</h2>
+        <form action="checkout.html">
+            <label for="pizza">Choose Pizza:</label>
+            <select id="pizza">
+                <option value="pepperoni">Pepperoni Pizza - ₹349</option>
+                <option value="bbq">BBQ Chicken Pizza - ₹549</option>
+                <option value="veggie">Veggie Supreme - ₹349</option>
+            </select>
+
+            <label for="quantity">Quantity:</label>
+            <input type="number" id="quantity" min="1" value="1">
+
+            <button type="submit" class="btn">Proceed to Checkout</button>
+        </form>
+
+        <!-- Back to Menu Button -->
+        <a href="/BANDAA/index.html" class="back-btn">← Back to Menu</a>
+
+    </section>
+
+</body>
+</html>

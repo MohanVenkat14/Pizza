@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizza Hut - Delicious Pizzas</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="images\logo.jpg" alt="Pizza Hut">
+            </div>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#menu">Menu</a></li>
+                    <li><a href="#offers">Offers</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                
+            </nav>
+           
+           <a href="order-now.html" class="order-btn">Order Now</a>
+            <div class="hamburger" onclick="toggleMenu()">&#9776;</div>
+        </div>
+    </header>
+
+      <!-- Hero Section -->
+      <section class="hero">
+        <div class="overlay"></div>
+        <div class="hero-content">
+            <h1>Savor the Taste of <span>Authentic Pizzas</span></h1>
+            <p>Hot, fresh, and loaded with flavor! Get your favorite pizza delivered in minutes.</p>
+            <div class="hero-buttons">
+  <!--            <a href="#" class="btn order-btn">Order Now</a>           -->  
+                <a href="#menu" class="btn menu-btn">View Menu For Order</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Menu Section -->
+    <section id="menu" class="featured-menu">
+        <h2>Our Featured Pizzas</h2>
+        <div class="menu-container">
+            <div class="menu-item">
+                <img src="images\pepporoni.png" alt="Pepperoni Pizza">
+                <div class="menu-info">
+                    <h3>Pepperoni Pizza</h3>
+                    <p>Classic cheese & pepperoni loaded with flavor.</p>
+                    <span class="price">449 ₹</span>
+                    <a href="order-now.html" class="btn">Order Now</a>
+
+                </div>
+            </div>
+            <div class="menu-item">
+                <img src="images\bbq.jpg" alt="BBQ Chicken Pizza">
+                <div class="menu-info">
+                    <h3>BBQ Chicken Pizza</h3>
+                    <p>Smoky BBQ sauce with grilled chicken & onions.</p>
+                    <span class="price">549 ₹</span>
+                    <a href="order-now.html" class="btn">Order Now</a>
+
+                </div>
+            </div>
+            <div class="menu-item">
+                <img src="images\veg.jpg" alt="Veggie Supreme">
+                <div class="menu-info">
+                    <h3>Veggie Supreme</h3>
+                    <p>A mix of fresh veggies & mozzarella cheese.</p>
+                    <span class="price">349 ₹</span>
+                    <a href="order-now.html" class="btn">Order Now</a>
+
+                </div>
+            </div>
+            
+        </div>
+    </section>
+
+     <!-- Special Offers Section -->
+     <section id="offers" class="special-offers">
+        <h2>Exclusive Deals & Special Offers</h2>
+        <p class="offers-subtext">Enjoy our best deals and save big on your favorite pizzas!</p>
+        <div class="offers-container">
+            
+            <div class="offer-card">
+                <img src="images\veg.jpg" alt="Buy 1 Get 1 Free">
+                <div class="offer-info">
+                    <h3>Buy 1 Get 1 Free</h3>
+                    <p>Order any large pizza and get another one absolutely FREE!</p>
+                    <a href="#menu" class="btn">Get Offer</a>
+                </div>
+            </div>
+
+            <div class="offer-card">
+                <img src="images\bbq.jpg" alt="Family Meal Combo">
+                <div class="offer-info">
+                    <h3>Family Meal Combo</h3>
+                    <p>Enjoy a family-sized meal with 2 large pizzas, 2 sides & drinks.</p>
+                    <a href="#menu" class="btn">Get Offer</a>
+                </div>
+            </div>
+
+            <div class="offer-card">
+                <img src="images\pepporoni.png" alt="Weekend Special">
+                <div class="offer-info">
+                    <h3>Weekend Special - 20% Off</h3>
+                    <p>Get 20% off on all orders above 499 ₹ this weekend only!</p>
+                    <a href="#menu" class="btn">Get Offer</a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+     <!-- About Us Section -->
+     <section id="about" class="about">
+        <div class="about-container">
+            <div class="about-image">
+                <img src="images\shop.jpg" alt="Pizza Hut Restaurant">
+            </div>
+            <div class="about-content">
+                <h2>About <span>Pizza Hut</span></h2>
+                <p>For decades, we've been serving the best pizzas, made with fresh ingredients and authentic flavors. Our passion is to bring joy to every bite with our handcrafted recipes, family-friendly atmosphere, and unforgettable experiences.</p>
+                <p>Whether you're dining in, taking out, or getting it delivered, we make sure every pizza is crafted with love.</p>
+                <a href="#" class="btn">Learn More</a>
+            </div>
+        </div>
+    </section>
+
+    ...
+    <!-- Other sections like Hero, Menu, Offers, etc. -->
+    
+    <!-- Contact Us Section (Insert Here) -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contact <span>Us</span></h2>
+            
+    
+            <div class="contact-wrapper">
+                <!-- Contact Form -->
+                <form class="contact-form">
+                    <div class="input-group">
+                        <input type="text" placeholder="Your Name" required>
+                    </div>
+                    <div class="input-group">
+                        <input type="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="input-group">
+                        <textarea placeholder="Your Message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn">Send Message</button>
+                </form>
+    
+                <!-- Contact Details -->
+                <div class="contact-info">
+                    <div class="info-item">
+                        <i class="fas fa-phone"></i>
+                        <p>+91 1234567890</p>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-envelope"></i>
+                        <p>contact@pizzahut.com</p>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <p>BVC college of Engineering</p>
+                    </div>               
+            </div>
+        </div>
+    </section>
+    
+    <!-- Footer Section -->
+    <footer class="footer">
+        <div class="footer-container">
+            <p>&copy; 2025 Pizza Hut. All Rights Reserved.</p>
+        </div>
+    </footer>
+    
+    </body>
+    </html>
+    
+    
+            
+</body>
+</html>
