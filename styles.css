@@ -28,7 +28,7 @@ header {
 
 /* Logo */
 .logo img {
-    width: 120px;
+    width: 80px;
 }
 
 /* Navigation Menu */
@@ -745,3 +745,4 @@ html {
         margin: 5px;
     }
 }
+
