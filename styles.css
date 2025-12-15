@@ -19,7 +19,8 @@ header {
 }
 
 .container {
-    width: 90%;
+    width: 80%;
+    height:69px;
     margin: auto;
     display: flex;
     justify-content: space-between;
@@ -28,7 +29,7 @@ header {
 
 /* Logo */
 .logo img {
-    width: 80px;
+    width: 50px;
 }
 
 /* Navigation Menu */
@@ -745,4 +746,5 @@ html {
         margin: 5px;
     }
 }
+
 
