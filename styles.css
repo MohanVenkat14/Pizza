@@ -6,15 +6,17 @@
     font-family: Arial, sans-serif;
 }
 
+
 /* Header Styling */
 header {
      background-color: #000000;
     color: white;
     padding: 15px 0;
-    position: fixed;
+    height: 100px;
+    position:fixed;
     width: 100%;
     top: 0;
-    z-index: 1000;
+    z-index: 600;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
 }
 
@@ -169,6 +171,7 @@ nav ul li a:hover {
 }
 
 .featured-menu h2 {
+    margin-top: 0%;
     font-size: 36px;
     margin-bottom: 20px;
     text-transform: uppercase;
@@ -335,7 +338,7 @@ nav ul li a:hover {
 /* About Us Section */
 .about {
     background: #f7f7f7;
-    padding: 60px 20px;
+    padding: 120px 40px;
 }
 
 .about-container {
@@ -512,7 +515,7 @@ nav ul li a:hover {
 .footer {
     background: #1e1e1e;
     color: white;
-    padding: 50px 20px;
+    padding: 20px 20px;
     text-align: center;
 }
 
@@ -521,7 +524,7 @@ nav ul li a:hover {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    max-width: 1000px;
+    max-width: 300px;
     margin: auto;
     flex-wrap: wrap;
     gap: 30px;
@@ -625,6 +628,11 @@ nav ul li a:hover {
 }
 html {
     scroll-behavior: smooth;
+}
+
+/* Fix scroll position for anchor links with fixed header */
+section {
+    scroll-margin-top: 69px;
 }
 
 /* Responsive Design */
@@ -746,5 +754,3 @@ html {
         margin: 5px;
     }
 }
-
-
