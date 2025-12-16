@@ -32,10 +32,6 @@ header {
     align-items: center;
 }
 
-/* Logo */
-.logo img {
-    width: 120px;
-}
 
 /* Navigation Menu */
 nav ul {
@@ -757,3 +753,4 @@ section {
         margin: 5px;
     }
 }
+
