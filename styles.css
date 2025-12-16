@@ -20,7 +20,7 @@ header {
 
 .container {
     width: 80%;
-    height:69px;
+    
     margin: auto;
     display: flex;
     justify-content: space-between;
@@ -29,7 +29,7 @@ header {
 
 /* Logo */
 .logo img {
-    width: 69px;
+    width: 120px;
 }
 
 /* Navigation Menu */
