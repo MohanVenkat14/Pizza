@@ -32,7 +32,9 @@ header {
     align-items: center;
 }
 
-
+.logo img {
+    width: 60px;
+}
 /* Navigation Menu */
 nav ul {
     list-style: none;
